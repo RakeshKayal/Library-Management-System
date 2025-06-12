@@ -1,0 +1,16 @@
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/online_libary_management</property>
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.connection.password">mysql2003</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQL8Dialect</property>
+        <property name="hibernate.hbm2ddl.auto">update</property>
+        <property name="show_sql">true</property>
+
+        <mapping class="entity.Book"/>
+        <mapping class="entity.student"/>
+        <mapping class="entity.libary_Issue_Book"/>
+        <mapping class="entity.Department"/> <!-- Add missing mappings -->
+    </session-factory>
+</hibernate-configuration>

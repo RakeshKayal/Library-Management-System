@@ -1,0 +1,249 @@
+@charset "UTF-8";
+* {
+    margin: 3px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+/* Navigation Styling */
+nav {
+    display: flex;
+    justify-content: space-between; /* Distribute content on both sides */
+    align-items: center;
+    padding-left: 550px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+}
+
+nav ul li {
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Right-aligned admin link */
+nav ul.right {
+    margin-left: 50px; /* Push the right <ul> to the right side */
+}
+
+/* Main Sections */
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+/* Home Section */
+#home {
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 40px;
+    border-radius: 8px;
+}
+
+/* Book Section */
+#books {
+    background-color: #f2f2f2;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.book-search {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.book-search input[type="text"] {
+    padding: 10px;
+    width: 250px;
+    margin-right: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.book-search button {
+    padding: 10px 15px;
+    border-radius: 4px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+.book-search button:hover {
+    background-color: #555;
+}
+
+#books table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#books th, #books td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+#books th {
+    background-color: #333;
+    color: white;
+}
+
+/* Users Section */
+#users {
+    background-color: #f2f2f2;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.user-actions {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.user-actions button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 4px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+.user-actions button:hover {
+    background-color: #555;
+}
+
+#users table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#users th, #users td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+#users th {
+    background-color: #333;
+    color: white;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+}
+
+#contact form {
+    max-width: 500px;
+    margin: auto;
+}
+
+#contact label {
+    display: block;
+    margin-top: 10px;
+    text-align: left;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+#contact button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#contact button:hover {
+    background-color: #555;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+label {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 8px;
+    display: block;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
